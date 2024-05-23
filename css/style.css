@@ -19,3 +19,11 @@
 section{
     margin-bottom: 2em;
 }
+
+.around{
+    justify-content: space-around;
+}
+
+.between{
+    justify-content: space-between;
+}
