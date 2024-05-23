@@ -1,0 +1,49 @@
+body{
+    color:rgba(2, 247, 64);
+    font-size: 70px;
+    font-family: "Nanum Gothic", sans-serif;
+}
+
+i{
+    cursor: pointer;
+}
+
+i:active{
+    transform: scale(0.8);
+}
+
+#sfondo{
+    background-color: black;
+    min-width: 2000px;
+    height: 100vh;
+    padding: 50px 0;
+}
+
+#screen{
+    background-color: rgba(2, 247, 64, 0.5);
+    min-height: 1000px;
+    height: 90vh;
+    width: 2000px;
+    margin: 0 auto;
+    border-radius: 60px;
+    padding: 1.5em;
+}
+
+.stats{
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stats:hover{
+    background-color: rgba(2, 247, 64);
+    color: black;
+}
+
+.green{
+    background-color: rgba(2, 247, 64);
+}
+
+.box{
+    height: 24px;
+}
