@@ -45,3 +45,18 @@ i:active{
 .box{
     height: 24px;
 }
+
+@media screen and (max-width:1330px) {
+
+    body{
+        font-size: 65px;
+    }
+
+    #screen{
+        padding: 0.5em 1em;
+    }
+
+    .stats{
+        text-align: center;
+    }
+}
