@@ -14,16 +14,15 @@ i:active{
 
 #sfondo{
     background-color: black;
-    min-width: 2000px;
+    width: 100vw;
     height: 100vh;
     padding: 50px 0;
 }
 
 #screen{
     background-color: rgba(2, 247, 64, 0.5);
-    min-height: 1000px;
+    width: 90vw;
     height: 90vh;
-    width: 2000px;
     margin: 0 auto;
     border-radius: 60px;
     padding: 1.5em;
@@ -32,7 +31,6 @@ i:active{
 .stats{
     font-weight: bold;
     align-items: center;
-    justify-content: space-between;
 }
 
 .stats:hover{
