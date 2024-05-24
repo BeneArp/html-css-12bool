@@ -15,14 +15,14 @@ i:active{
 #sfondo{
     background-color: black;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     padding: 50px 0;
 }
 
 #screen{
     background-color: rgba(2, 247, 64, 0.5);
     width: 90vw;
-    height: 90vh;
+    min-height: 90vh;
     margin: 0 auto;
     border-radius: 60px;
     padding: 1.5em;
@@ -58,5 +58,16 @@ i:active{
 
     .stats{
         text-align: center;
+    }
+}
+
+@media screen and (max-width:1080px) {
+
+    body{
+        font-size: 50px;
+    }
+
+    #screen{
+        padding: 1.5em 1em;
     }
 }
